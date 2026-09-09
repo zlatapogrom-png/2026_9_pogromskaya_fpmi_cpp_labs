@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-	setlocale(LC_ALL, ".1251");
+	setlocale(LC_ALL, "Russian");
 	int n;
 	std::cout << "¬ведите количество нечетных чисел:\n";
 	std::cin >> n;

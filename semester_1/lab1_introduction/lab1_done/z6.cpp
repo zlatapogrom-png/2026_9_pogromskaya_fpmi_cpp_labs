@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-	setlocale(LC_ALL, ".1251");
+	setlocale(LC_ALL, "Russian");
 	int a, b, d;
 	std::cout << "¬ведите границы отрезка и разность прогресии:\n";
 	std::cin >> a >> b >> d;

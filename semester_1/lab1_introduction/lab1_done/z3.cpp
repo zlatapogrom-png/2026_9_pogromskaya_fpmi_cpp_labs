@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-	setlocale(LC_ALL, ".1251");
+	setlocale(LC_ALL, "Russian");
 	int n, n1, n2, n3, n4;
 	std::cout << "¬ведите четырехзначное натуральное число:\n";
 	std::cin >> n;
