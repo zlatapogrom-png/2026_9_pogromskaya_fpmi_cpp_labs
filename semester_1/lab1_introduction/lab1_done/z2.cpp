@@ -1,9 +1,9 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main() {
-	setlocale(LC_ALL, "Russian");
+	setlocale(LC_ALL, ".1251"); 
 	int n;
-	std::cout << "Ââåäèòå êîëè÷åñòâî íå÷åòíûõ ÷èñåë:\n";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð½ÐµÑ‡ÐµÑ‚Ð½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»:\n";
 	std::cin >> n;
 	std::cout << n * n;
 	return 0;
